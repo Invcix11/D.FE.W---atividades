@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #30104B;
+    color: #F5F0FA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Organização geral da página */
+
+.layout-pagina {
+    display: grid;
+    
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer"
+    ;
+
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: auto 1fr auto;
+
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    grid-area: header;
+    background-color: #00D9D0;
+    color: #30104B;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.cabecalho h1{
+    margin: 0 0 10px;
+}
+
+.cabecalho p{
+    margin: 15px;
+}
+
+/* Menu da Lateral Esquerda */
+
+.barra-lateral {
+    grid-area: sidebar;
+    background-color: #FFF0D8;
+    padding: 20px;
+}
+
+.barra-lateral h2 {
+    color: #30104B;
+
+}
+
+.barra-lateral ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.barra-lateral li {
+    margin-bottom: 10px;
+}
+
+.barra-lateral a{
+    display: block;
+    background-color: #E8C18D;
+    color: #30104B;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.barra-lateral a:hover {
+    background-color: #FFD166;
+}
+
+/* Grid dos Cards */
+
+.grid-principal {
+    grid-area: main;
+    padding: 30px;
+}
+
+.grid-principal h2{
+    margin-top: 0;
+    color: #00D9D0;
+}
+
+.grid-cards {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: black;
+    padding: 1rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 1 rem;
+    box-shadow: 0 3px 8px;
+
+}
+
+.card h3{
+    margin-top: 0;
+    color: #3178c6;
+}
+
+.card p{
+    line-height: 1.6;
+}

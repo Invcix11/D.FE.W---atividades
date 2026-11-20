@@ -1,0 +1,54 @@
+exemplo1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas em HTML</h1> 
+    <p>
+        As tabelas em HTML são usadas para organizar <br> dados em linhas e colunas.
+    </p>
+    <br>
+    <hr>
+    <br>
+    <table border="4">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rafa</td>
+                <td>21</td>
+                <td>São Paulo</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>21</td>
+                <td>ErreXota</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<hr>
+<br>
+<img 
+    src="img/memphis.jpg" width="500" height="350"
+    alt="Memphis Depay é o mais pica de todos"
+/>
+<br>
+<hr>
+<br>
+<img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-Ud3T4qiS5-RVWaoVxbaxVGI2z92TYnj4ZqXP92ZJA&s" width="1080" height="720"
+    alt="Corinthians é o maior time do mundo"
+/>
+</body>
+</html>

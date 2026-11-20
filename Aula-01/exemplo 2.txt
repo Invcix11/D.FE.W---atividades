@@ -1,0 +1,26 @@
+exemplo 2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo HTML, CSS e JAVA SCRIPT</title>
+
+    <style>
+        body{
+            color:rgb(30, 6, 247);
+            font-size: 15px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Exemplo HTML, CSS e JAVA SCRIPIT</h1>
+
+    <script>
+        console.log("Primeira Aula WEB");
+    </script>
+</body>
+</html>
