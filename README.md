@@ -1,3 +1,8 @@
+# Nome e RGM
+
+Nome: Igor Inácio Rodrigues da Silva
+RGM: 47585391
+
 # Desenvolvimento Front-End para Web
 
 Repositório destinado ao armazenamento das atividades práticas desenvolvidas durante as aulas da disciplina de Desenvolvimento Front-End para Web.
